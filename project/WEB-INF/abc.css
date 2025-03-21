@@ -1,0 +1,43 @@
+body{
+    background-image: url('bg2.jpg');
+}
+#mymenu{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: right;
+}
+#mymenu ul li{
+    display: inline-block;
+    padding: 20px;
+}
+#mymenu ul li:hover{
+    display: inline-block;
+    padding: 20px;
+    background: lightskyblue;
+    color: black;
+}
+table{
+    margin-top: 100px;
+    background-color: rgba(0,0,0,0.5);
+    color: lightgreen;
+    box-shadow: 20px 20px 50px grey;
+}
+.B{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border-radius:  10px 10px 10px 10px;
+    padding: 10px;
+}
+.B:hover{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border-radius:  10px 10px 10px 10px;
+    padding: 10px;
+}
+.A{
+    border-radius: 5px;
+}
+/*
+background:linear-gradient(red, black); 
+border-radius : 0px 50px 0px 50px;
+padding: 15px*/
